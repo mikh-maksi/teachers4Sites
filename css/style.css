@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url('../img/pixel.png');
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height:100px;
+    background-color: #822d2d;
+}
+footer{
+    height:100px;
+    background-color: #822d2d;    
+}
+.upper{
+    width:1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    width:900px;
+    justify-content: space-between;
+    align-items: center ;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color:white;
+    font-size:21px;
+    font-family: Arial;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.mainup{
+    display: flex;
+}
+.line, .line2{
+    height: 55px;
+    background: url('../img/line.png');
+}
+.line{
+    width:calc(40% - 300px);
+}
+.line2{
+    width:60%;
+}
+.groupname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:36px;
+    background: url('../img/pixel.png');
+}
+.main div{
+    border: 1px solid;
+}
+
+.timetable{
+    width: 1200px;
+}
+
+.timetable div{
+    display: flex;
+}
+.timetable div div{
+    height:60px;
+    width:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 18px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+    color:#e4c4b5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.down ul li{
+    list-style: none;
+}
+.down a{
+    justify-content: space-between;
+    color:#e4c4b5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.down a:hover{
+    text-decoration: underline;
+}
+.down div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fm2{
+    font-size: 16px;
+}
