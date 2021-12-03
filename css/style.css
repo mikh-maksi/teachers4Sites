@@ -72,10 +72,14 @@ footer{
 
 .timetable{
     width: 1200px;
+    display: flex;
+
+
 }
 
 .timetable div{
-    display: flex;
+    
+    
 }
 .timetable div div{
     height:60px;
